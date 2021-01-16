@@ -1,8 +1,11 @@
 [tool.poetry]
 name = "all-relative"
-version = "0.1.0"
+version = "0.1.4"
 description = "convert a static site to use only relative urls"
 authors = ["Ivan Gonzalez <scratchmex@gmail.com>"]
+
+[tool.poetry.scripts]
+all-relative = "all_relative.main:main"
 
 [tool.poetry.dependencies]
 python = "^3.8"
