@@ -1,0 +1,13 @@
+repos:
+  - repo: https://github.com/psf/black
+    rev: 20.8b1
+    hooks:
+      - id: black
+
+  # TODO: wait for mypy to release 0.8
+  # - repo: https://github.com/python/mypy
+  #   rev: master  # Use the sha / tag you want to point at
+  #   entry: mypy
+  #   language: python
+  #   hooks:
+  #     - id: mypy
