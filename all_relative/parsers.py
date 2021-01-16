@@ -35,6 +35,9 @@ class BaseParser:
         if not path.startswith("/"):
             raise RuntimeError(f"{path} should be an absolute path")
 
+        if path.startswith("//"):
+            return path
+
         path = "." + path
 
         rel_path = relpath(path)
