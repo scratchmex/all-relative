@@ -8,8 +8,6 @@ cli = argparse.ArgumentParser(
 cli.add_argument(
     "rootdir",
     help="path to the root directory",
-    default=os.getcwd(),
-    nargs="?",
 )
 cli.add_argument(
     "-n",
