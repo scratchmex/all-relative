@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "all-relative"
-version = "0.1.7"
+version = "0.1.8"
 description = "cli tool to convert a static site to use only relative urls"
 authors = ["Ivan Gonzalez <scratchmex@gmail.com>"]
 readme = "README.md"
